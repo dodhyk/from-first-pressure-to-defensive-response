@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & testing caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Raw large tracking datasets (downloaded dynamically via pipeline)
+data/raw/*
+!data/raw/.gitkeep
+*.jsonl
+
+# Environment & IDE
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+*.swp
+.DS_Store

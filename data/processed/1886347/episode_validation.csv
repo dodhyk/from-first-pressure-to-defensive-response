@@ -1,0 +1,4 @@
+match_id,episode_id,validation_status,validation_tier,review_notes,has_gif,gif_path,has_trajectory_plot,plot_path
+1886347,1886347_EP_000001,SIMULTANEOUS_TIE,MEDIUM_CONFIDENCE,Boundary: possession_end | Outcome: NO_PROGRESSION_LATERAL_OR_STALLED,True,outputs\1886347\gifs\1886347_EP_000001.gif,True,outputs\1886347\trajectories\1886347_EP_000001_trajectory.png
+1886347,1886347_EP_000002,SIMULTANEOUS_TIE,MEDIUM_CONFIDENCE,Boundary: possession_end | Outcome: NO_PROGRESSION_LATERAL_OR_STALLED,True,outputs\1886347\gifs\1886347_EP_000002.gif,True,outputs\1886347\trajectories\1886347_EP_000002_trajectory.png
+1886347,1886347_EP_000003,SIMULTANEOUS_TIE,MEDIUM_CONFIDENCE,Boundary: possession_end | Outcome: NO_PROGRESSION_LATERAL_OR_STALLED,True,outputs\1886347\gifs\1886347_EP_000003.gif,True,outputs\1886347\trajectories\1886347_EP_000003_trajectory.png

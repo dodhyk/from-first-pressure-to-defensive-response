@@ -1,0 +1,69 @@
+{
+  "match_id": 1886347,
+  "pipeline_version": "0.1.0",
+  "run_timestamp_utc": "2026-10-25T11:46:27.219486+00:00",
+  "execution_duration_seconds": 78.74,
+  "software_environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "pandas": "3.0.5",
+    "numpy": "2.5.2"
+  },
+  "source_urls": {
+    "metadata": "https://raw.githubusercontent.com/SkillCorner/opendata/master/data/matches/1886347/1886347_match.json",
+    "dynamic_events": "https://raw.githubusercontent.com/SkillCorner/opendata/master/data/matches/1886347/1886347_dynamic_events.csv",
+    "tracking": "https://media.githubusercontent.com/media/SkillCorner/opendata/master/data/matches/1886347/1886347_tracking_extrapolated.jsonl"
+  },
+  "configuration": {
+    "match_id": 1886347,
+    "data_dir": "data",
+    "output_dir": "outputs",
+    "force_download": false,
+    "fps": 10.0,
+    "pitch_length": 104.0,
+    "pitch_width": 68.0,
+    "min_trigger_duration_frames": 5,
+    "only_defending_half": true,
+    "mdm_speed_threshold_mps": 1.5,
+    "mdm_displacement_min_m": 0.6,
+    "mdm_max_initial_distance_m": 25.0,
+    "mdm_distance_closing_min_m": 0.8,
+    "mdm_pass_lane_tolerance_m": 2.0,
+    "movement_speed_threshold_mps": 1.2,
+    "movement_onset_window_frames": 3,
+    "simultaneous_tolerance_frames": 2,
+    "second_defender_max_distance_to_first_m": 18.0,
+    "min_episode_duration_frames": 6,
+    "max_episode_duration_frames": 100,
+    "max_tracking_gap_frames": 3,
+    "post_possession_loss_buffer_frames": 10,
+    "forward_progression_threshold_m": 8.0,
+    "shot_box_distance_m": 22.0,
+    "epv_proxy_fallback_allowed": false,
+    "generate_gif": true,
+    "generate_plots": true,
+    "limit_episodes": 3,
+    "gif_fps": 10,
+    "gif_context_pre_frames": 10,
+    "gif_context_post_frames": 10,
+    "verbose": false
+  },
+  "summary_statistics": {
+    "total_episodes_detected": 3,
+    "total_defender_movements_tracked": 33,
+    "episodes_with_second_defender": 3,
+    "episodes_with_simultaneous_second_responders": 3,
+    "episodes_with_valid_epv": 3,
+    "outcome_distribution": {
+      "NO_PROGRESSION": 3
+    },
+    "mean_episode_duration_seconds": 2.3
+  },
+  "output_files": {
+    "episodes_csv": "data\\processed\\1886347\\episodes.csv",
+    "defender_movements_csv": "data\\processed\\1886347\\defender_movements.csv",
+    "episode_defender_features_csv": "data\\processed\\1886347\\episode_defender_features.csv",
+    "episode_validation_csv": "data\\processed\\1886347\\episode_validation.csv",
+    "trajectories_dir": "outputs\\1886347\\trajectories",
+    "gifs_dir": "outputs\\1886347\\gifs"
+  }
+}
